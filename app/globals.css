@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.text-loading {
+  font-family: "Silkscreen", cursive;
+  font-size: 2rem;
+}
+.text-loading:after {
+  content: "...";
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 3px;
+}
