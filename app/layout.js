@@ -1,4 +1,4 @@
-'use client'
+
 import { AnimatePresence } from 'framer-motion';
 import './globals.css'
 
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body>
           <AnimatePresence exitBeforEnter>
-                {children}
+            {children}
           </AnimatePresence>
         </body>
       </html>
